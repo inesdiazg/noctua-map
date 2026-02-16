@@ -11,7 +11,7 @@
     "href": "mapa.html",
     "title": "Puntos de muestreo con grabadora - NOCTUA 2024",
     "section": "",
-    "text": "Resumen de la temporada:\n\n\nLinking to GEOS 3.13.1, GDAL 3.11.4, PROJ 9.7.0; sf_use_s2() is TRUE\n\n\n\nAdjuntando el paquete: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n\n\n  Total de grabadoras: 142\n  Número de responsables: 63\n  Cuadrículas UTM cubiertas: 70\n  Noches grabadas: 96.6 de media \n  (mínimo: 0, máximo: 169)\n\n\n\n\n\nMapa\nHaz clic en los iconos  para ver la información sobre los puntos de muestreo.\n\n\nReading layer `Malla10x10_Ter_p' from data source \n  `C:\\Users\\inesi\\OneDrive - UAM (1)\\Producto_BirdNET\\quarto-web\\noctua-map\\datos\\Malla10x10_Ter_p.shp' \n  using driver `ESRI Shapefile'\nSimple feature collection with 5441 features and 16 fields\nGeometry type: POLYGON\nDimension:     XY\nBounding box:  xmin: -20620.64 ymin: 3890000 xmax: 1134405 ymax: 4862436\nProjected CRS: ETRS89 / UTM zone 30N"
+    "text": "Resumen de la temporada:\n\n\nLinking to GEOS 3.13.1, GDAL 3.11.4, PROJ 9.7.0; sf_use_s2() is TRUE\n\n\n\nAdjuntando el paquete: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n\n\n  Total de grabadoras: 142\n  Número de responsables: 63\n  Cuadrículas UTM cubiertas: 70\n  Noches grabadas: 96.6 de media \n  (mínimo: 0, máximo: 169)\n\n\n\n\n\nMapa\nHaz clic en los iconos  para ver la información sobre los puntos de muestreo."
   },
   {
     "objectID": "index.html",
