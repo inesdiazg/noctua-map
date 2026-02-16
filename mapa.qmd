@@ -1,0 +1,39 @@
+---
+title: "Puntos de muestreo con grabadora - NOCTUA 2024"
+---
+
+```{r, echo= FALSE}
+library(leaflet)
+library(glue)
+library(htmltools)
+
+ptos <- read.csv("datos/noctua.csv", sep = ";")
+
+resumen_html <- glue(
+  "<ul>
+    <li><b>Total de grabadoras:</b> {length(unique(ptos$Grabadora.ID))}</li>
+    <li><b>Número de responsables:</b> {length(unique(ptos$Responsable))}</li>
+    <li><b>Cuadrículas UTM cubiertas:</b> {length(unique(ptos$UTM10_Asignada))}</li>
+    <li><b>Noches grabadas:</b> {round(mean(ptos$Dias_Grabados_Campo),1)} de media 
+    (mínimo: {min(ptos$Dias_Grabados_Campo)}, máximo: {max(ptos$Dias_Grabados_Campo)})</li>
+  </ul>"
+)
+
+HTML(resumen_html)
+```
+```{r, echo= FALSE}
+leaflet(ptos) |>
+  addTiles() |>
+  setView(lng = -3.7, lat = 40.4, zoom = 5) |>
+  addMarkers(
+    lng = ~Longitud,
+    lat = ~Latitud,
+    popup = ~glue(
+      "<b>{PuntoMuestreo}</b><br/>",
+      "<b>Provincia:</b> {Provincia}<br/>",
+      "<b>UTM10:</b> {UTM10_Asignada}<br/>",
+      "<b>Noches:</b> {Dias_Grabados_Campo}<br/>",
+      "<b>Hábitat:</b> {Habitat}"
+    )
+  )
+```
