@@ -3,6 +3,8 @@ title: "Puntos de muestreo con grabadora - NOCTUA 2024"
 lang: es
 ---
 
+### Resumen de la temporada:
+
 ```{r, echo= FALSE}
 library(leaflet)
 library(glue)
@@ -22,6 +24,10 @@ resumen_html <- glue(
 
 HTML(resumen_html)
 ```
+
+### Mapa
+
+Haz clic en los iconos ![](images/marker-icon.png){width="11"} para ver la información sobre los puntos de muestreo.
 
 ```{r, echo= FALSE}
 leaflet(ptos) |>
