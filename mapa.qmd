@@ -31,11 +31,13 @@ leaflet(ptos) |>
     lng = ~Longitud,
     lat = ~Latitud,
     popup = ~glue(
-      "<b>{PuntoMuestreo}</b><br/>",
-      "<b>Provincia:</b> {Provincia}<br/>",
-      "<b>UTM10:</b> {UTM10_Asignada}<br/>",
-      "<b>Noches:</b> {Dias_Grabados_Campo}<br/>",
-      "<b>Hábitat:</b> {Habitat}"
-    )
+          "<div style='text-align: center; margin-bottom: 1px;'><span style='font-size: larger;'><b>{PuntoMuestreo}</b></span></div><br/>",
+          "<div style='margin-top: 8px;'><b>Provincia: </b> {Provincia}</div>",
+          "<div style='margin-top: 8px;'><b>Cuadrícula UTM10: </b> {UTM10_Asignada}</div>",
+          "<div style='margin-top: 8px;'><b>Inicio de grabación: </b> {FechaInicioGrabacionMuestreo}</div>",
+          "<div style='margin-top: 8px;'><b>Fin de grabación: </b> {FechaFinGrabacionMuestreo}</div>",
+          "<div style='margin-top: 8px;'><b>Noches grabadas: </b> {Dias_Grabados_Campo}</div>",
+          "<div style='margin-top: 8px;'><b>Hábitat: </b> {Habitat}</div>"
+        )
   )
 ```
