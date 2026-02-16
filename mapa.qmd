@@ -34,7 +34,9 @@ HTML(resumen_html)
 Haz clic en los iconos ![](images/marker-icon.png){width="16"} para ver la información sobre los puntos de muestreo.
 
 ```{r, echo= FALSE}
-
+ptos <- read.csv("datos/noctua.csv", sep = ";")
+ptos <- ptos %>%
+  mutate(PuntoMuestreo = gsub("_", " ", PuntoMuestreo))
 ptos_sf <- st_as_sf(ptos, coords = c("Longitud", "Latitud"), crs = 4326)
 
 # 2️⃣ Cargar cuadrículas
