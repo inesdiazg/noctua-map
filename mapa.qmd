@@ -1,5 +1,6 @@
 ---
 title: "Puntos de muestreo con grabadora - NOCTUA 2024"
+lang: es
 ---
 
 ```{r, echo= FALSE}
@@ -21,6 +22,7 @@ resumen_html <- glue(
 
 HTML(resumen_html)
 ```
+
 ```{r, echo= FALSE}
 leaflet(ptos) |>
   addTiles() |>

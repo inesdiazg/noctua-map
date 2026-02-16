@@ -1,5 +1,6 @@
 ---
 title: "El proyecto"
+lang: es
 ---
 
 (resumen de qué se trata)
