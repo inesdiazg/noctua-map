@@ -27,7 +27,7 @@ HTML(resumen_html)
 
 ### Mapa
 
-Haz clic en los iconos ![](images/marker-icon.png){width="11"} para ver la información sobre los puntos de muestreo.
+Haz clic en los iconos ![](images/marker-icon.png){width="16"} para ver la información sobre los puntos de muestreo.
 
 ```{r, echo= FALSE}
 leaflet(ptos) |>
