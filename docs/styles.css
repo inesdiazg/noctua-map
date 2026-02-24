@@ -1,1 +1,15 @@
 /* css styles */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link .card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.card-link .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}

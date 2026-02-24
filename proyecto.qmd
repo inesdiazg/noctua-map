@@ -20,6 +20,9 @@ El objetivo último del proyecto es diseñar una propuesta de seguimiento de esp
 
 ### Equipo
 
+::::::: columns
+:::: column
+::: card
 #### Equipo de trabajo en la UAM:
 
 -   Javier Seoane Pinilla ([javier.seoane\@uam.es](mailto:javier.seoane@uam.es))
@@ -29,7 +32,11 @@ El objetivo último del proyecto es diseñar una propuesta de seguimiento de esp
 -   Guzmán Verde García ([guzman.verde\@uam.es](mailto:guzman.verde@uam.es))
 
 -   Inés Díaz García ([ines.diaz\@uam.es](mailto:ines.diaz@uam.es))
+:::
+::::
 
+:::: column
+::: card
 #### Equipo de trabajo en SEO/BirdLife:
 
 -   Virginia Escandell González ([vescandell\@seo.org](mailto:vescandell@seo.org) )
@@ -37,3 +44,6 @@ El objetivo último del proyecto es diseñar una propuesta de seguimiento de esp
 -   Juan Carlos del Moral González ([jcdelmoral\@seo.org](mailto:jcdelmoral@seo.org) )
 
 -   Emilio Escudero ([eescudero\@seo.org](mailto:eescudero@seo.org) )
+:::
+::::
+:::::::

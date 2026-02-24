@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Audio-NOCTUA – NOCTUA-Rec</title>
+<title>NOCTUA-Rec</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,11 +68,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
-</head><body class="nav-fixed quarto-light"><div style="text-align:center; padding:10px;">
+</head><body class="nav-fixed quarto-light"><div style="text-align:left; padding:10px;">
 
-  <img src="images/seo.png" height="60">
+  <img src="images/seo.png" height="50" style="margin-right:20px;">
 
-  <img src="images/uam.png" height="60">
+  <img src="images/uam.png" height="50">
 
 </div>
 
@@ -139,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Audio-NOCTUA</h1>
+<h1 class="title">NOCTUA-Rec</h1>
 </div>
 
 
@@ -157,7 +157,28 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Ampliación del programa de seguimiento de aves nocturnas NOCTUA de SEO/BirdLife usando <strong>monitoreo acústico pasivo</strong> (MAP).</p>
-<p>Más información sobre el programa NOCTUA: <a href="https://seo.org/noctua-4/" class="uri">https://seo.org/noctua-4/</a></p>
+<div class="columns">
+<div class="column">
+<p><a href="proyecto.html" class="card-link"><br>
+{.card style=“padding:20px; text-align:center;”}<br>
+¿En qué consiste el proyecto?<br>
+¿Quién conforma el equipo?</a></p><a href="proyecto.html" class="card-link">
+</a></div><p></p>
+</div>
+<div class="column">
+<p><a href="mapa.html" style="text-decoration: none; color: inherit;"><br>
+{.card style=“padding:20px; text-align:center;”}<br>
+¿Cuántos puntos de muestreo hay?<br>
+¿Dónde se ubican?<br>
+¿Cuántas personas participan?</a></p><a href="mapa.html" style="text-decoration: none; color: inherit;">
+</a></div><a href="mapa.html" style="text-decoration: none; color: inherit;">
+</a><p><a href="mapa.html" style="text-decoration: none; color: inherit;"></a></p>
+<div class="column">
+<p><a href="participar.html" style="text-decoration: none; color: inherit;"><br>
+{.card style=“padding:20px; text-align:center;”}<br>
+¿Cómo puedo participar?</a></p><a href="participar.html" style="text-decoration: none; color: inherit;">
+</a></div><a href="participar.html" style="text-decoration: none; color: inherit;">
+</a><p><a href="participar.html" style="text-decoration: none; color: inherit;"></a></p>
 <section id="otros-enlaces-de-interés" class="level3">
 <h3 class="anchored" data-anchor-id="otros-enlaces-de-interés">Otros enlaces de interés</h3>
 </section>
@@ -241,7 +262,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/inesdiazg\.github\.io\/noctua-map\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

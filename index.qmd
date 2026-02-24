@@ -1,11 +1,38 @@
 ---
-title: "Audio-NOCTUA"
+title: "NOCTUA-Rec"
 lang: es
 ---
 
 Ampliación del programa de seguimiento de aves nocturnas NOCTUA de SEO/BirdLife usando **monitoreo acústico pasivo** (MAP).
 
-Más información sobre el programa NOCTUA: <https://seo.org/noctua-4/>
+:::: columns
+::: column
+<a href="proyecto.html" class="card-link">\
+{.card style="padding:20px; text-align:center;"}\
+¿En qué consiste el proyecto?\
+¿Quién conforma el equipo?
+:::
+
+</a>
+::::
+
+::: column
+<a href="mapa.html" style="text-decoration: none; color: inherit;">\
+{.card style="padding:20px; text-align:center;"}\
+¿Cuántos puntos de muestreo hay?\
+¿Dónde se ubican?\
+¿Cuántas personas participan?
+:::
+
+</a>
+
+::: column
+<a href="participar.html" style="text-decoration: none; color: inherit;">\
+{.card style="padding:20px; text-align:center;"}\
+¿Cómo puedo participar?
+:::
+
+</a>
 
 ### Otros enlaces de interés
 
