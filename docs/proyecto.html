@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>El proyecto – Audio-NOCTUA</title>
+<title>El proyecto – NOCTUA-Rec</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,12 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+</head><body class="nav-fixed quarto-light"><div style="text-align:center; padding:10px;">
+
+  <img src="images/seo.png" height="60">
+
+  <img src="images/uam.png" height="60">
+
+</div>
 
 
 <link rel="stylesheet" href="styles.css">
-</head>
 
-<body class="nav-fixed quarto-light">
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -81,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Audio-NOCTUA</span>
+    <span class="navbar-title">NOCTUA-Rec</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Buscar"></div>
@@ -150,20 +157,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>(resumen de qué se trata)</p>
 <section id="historia" class="level3">
 <h3 class="anchored" data-anchor-id="historia">Historia</h3>
+<p>SEO/BirdLife desarrolla desde hace años el <strong>programa de seguimiento de aves nocturnas “NOCTUA”</strong> dentro de sus distintas actividades de monitorización de la biodiversidad a través de la ciencia ciudadana. Este programa tiene como objetivo describir las tendencias poblacionales de las aves nocturnas y se basa en las escuchas activas que desarrollan <strong>voluntarios y voluntarias</strong> de acuerdo con un protocolo estandarizado. Desde 2024, Diego Llusia y Javier Seoane, del Departamento de Ecología de la Universidad Autónoma de Madrid y adscritos al Centro de Investigación en Biodiversidad y Cambio Global, y sus estudiantes tutelados han colaborado informalmente con ese programa para fortalecerlo con herramientas basadas en <strong>seguimiento acústico pasivo</strong>.</p>
+<p>En el marco de esta colaboración, el equipo de trabajo durante el primer trimestre de 2025 diseñó un protocolo de grabación mediante grabadoras automáticas, configuró los equipos a enviar a los voluntarios y desarrolló actividades de capacitación (documentación de apoyo y reunión con los voluntarios). SEO/BirdLife proporcionó las grabadoras automáticas a los voluntarios del programa.</p>
 </section>
 <section id="objetivos" class="level3">
 <h3 class="anchored" data-anchor-id="objetivos">Objetivos</h3>
-<ul>
-<li></li>
-</ul>
+<p>El objetivo último del proyecto es diseñar una propuesta de seguimiento de especies de aves diana mediante grabadores automáticos como apoyo al programa NOCTUA. Para ello se requiere, a modo de objetivos generales:</p>
+<ol type="1">
+<li>Capacitar a los voluntarios para desplegar y manejar las grabadoras</li>
+<li>Elaborar un sistema de almacenamiento y gestión de la información</li>
+<li>Desarrollar modelos de reconocimiento de sonido y determinar su desempeño</li>
+<li>Elaborar índices que informen sobre las tendencias temporales de las especies</li>
+</ol>
 </section>
 <section id="equipo" class="level3">
 <h3 class="anchored" data-anchor-id="equipo">Equipo</h3>
+<section id="equipo-de-trabajo-en-la-uam" class="level4">
+<h4 class="anchored" data-anchor-id="equipo-de-trabajo-en-la-uam">Equipo de trabajo en la UAM:</h4>
+<ul>
+<li><p>Javier Seoane Pinilla (<a href="mailto:javier.seoane@uam.es">javier.seoane@uam.es</a>)</p></li>
+<li><p>Diego Llusia Genique (<a href="mailto:diego.llusia@uam.es">diego.llusia@uam.es</a>)</p></li>
+<li><p>Guzmán Verde García (<a href="mailto:guzman.verde@uam.es">guzman.verde@uam.es</a>)</p></li>
+<li><p>Inés Díaz García (<a href="mailto:ines.diaz@uam.es">ines.diaz@uam.es</a>)</p></li>
+</ul>
+</section>
+<section id="equipo-de-trabajo-en-seobirdlife" class="level4">
+<h4 class="anchored" data-anchor-id="equipo-de-trabajo-en-seobirdlife">Equipo de trabajo en SEO/BirdLife:</h4>
+<ul>
+<li><p>Virginia Escandell González (<a href="mailto:vescandell@seo.org">vescandell@seo.org</a> )</p></li>
+<li><p>Juan Carlos del Moral González (<a href="mailto:jcdelmoral@seo.org">jcdelmoral@seo.org</a> )</p></li>
+<li><p>Emilio Escudero (<a href="mailto:eescudero@seo.org">eescudero@seo.org</a> )</p></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -240,7 +269,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/inesdiazg\.github\.io\/noctua-map\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
