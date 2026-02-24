@@ -5,7 +5,7 @@ project:
 lang: es
 
 website:
-  title: "Audio-NOCTUA"
+  title: "NOCTUA-Rec"
   navbar:
     right:
       - href: index.qmd
@@ -23,6 +23,7 @@ format:
       - cosmo
     css: styles.css
     toc: true
+    include-in-header: header.html
 
 editor: visual
 
