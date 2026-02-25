@@ -1,15 +1,39 @@
+.justificado {
+  text-align: justify !important;
+}
+
 /* css styles */
-.card-link {
-  text-decoration: none;
-  color: inherit;
+.cards-container {
+  display: flex;
+  gap: 20px;              /* espacio entre tarjetas */
+  align-items: stretch;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-.card-link .card {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+.card-inicio {
+  flex: 1;                /* todas ocupan el mismo ancho */
+  display: flex;
+  align-items: center;    /* centra vertical */
+  justify-content: center;/* centra horizontal */
+  text-align: center;
+  padding: 10px;
   cursor: pointer;
+
+  background-color: #3f98d3 !important;
+  border-radius: 9px;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  transition: box-shadow 0.3s;
 }
 
-.card-link .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+.card-inicio:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.4);
 }
+
+.card-equipo {
+  border:none;
+}
+
