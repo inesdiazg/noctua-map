@@ -17,7 +17,12 @@ library(dplyr)
 # resumen
 ptos <- read.csv("datos/noctua.csv", sep = ";")
 ptos <- ptos %>%
-  mutate(PuntoMuestreo = gsub("_", " ", PuntoMuestreo))
+  mutate(
+    PuntoMuestreo = gsub("_", " ", PuntoMuestreo),
+    FechaInicioGrabacionMuestreo = as.Date(FechaInicioGrabacionMuestreo),
+    FechaInicioGrabacionMuestreo = format(FechaInicioGrabacionMuestreo, "%d/%m/%Y"),
+    FechaFinGrabacionMuestreo = as.Date(FechaFinGrabacionMuestreo),
+    FechaFinGrabacionMuestreo = format(FechaFinGrabacionMuestreo, "%d/%m/%Y"))
 
 resumen_html <- glue(
   "<ul>
